@@ -1,5 +1,7 @@
 # Carbon Cycle Prediction Using Meteorological Data Based on XGBoost
 
+**English** | [中文](README_zh.md)
+
 ## Overview
 
 This project builds a carbon flux (Net Ecosystem Exchange, NEE) prediction model using XGBoost regression on meteorological NetCDF data for Ya'an, China (latitude 30.0, longitude 103.0). The pipeline extracts atmospheric variables at the 1000 hPa pressure level, engineers time-based cyclic features and lag features, and trains an XGBoost regressor to predict NEE.
